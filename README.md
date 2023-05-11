@@ -12,7 +12,7 @@ This application is a wrapper around the NS API. It exposes endpoints combining 
 
 ## Installation
 
-1. Run `npm i` to install all dependencies.
+1. Run `npm ci` to install all dependencies.
 2. Create a copy of `.env.example` and name it `.env`. Fill in the environment variables.
 3. Run `nx build` to build the application.
 
