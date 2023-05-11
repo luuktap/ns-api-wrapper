@@ -22,3 +22,7 @@ export const findStationByLongName = (
 
   return station;
 };
+
+export const sortTripsByLeastTransfers = (trips: Trip[]): Trip[] => {
+  return trips.sort((a, b) => a.transfers - b.transfers);
+};
